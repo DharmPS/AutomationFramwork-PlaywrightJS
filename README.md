@@ -6,31 +6,59 @@ This repository contains an automation framework built using Playwright & JS. Be
 Folder Structure:-
 -----------------
 1.node_modules/         # It contains dependencies installed via npm.
+
 2.pages/                # Page Object Models (POM) for application pages.
+
  a.)POManager & Fixture  # It contains fixtures for pages and setting up & cleaning up fixtures after test.
+ 
  b.)HomePage.js       # Home page locators & functions.
+ 
  c.)LoginPage.js      # Login page locators & functions.
+ 
  d.)ProductsPage.js   # Products page locators & functions.
+ 
  e.)SignupPage.js     # Signup page locators & functions.
+ 
  f.)ViewCartPage.js   # View Cart locators & functions.
+ 
 3.test-results/         # Test execution reports.
+
  a.)html/             # HTML (index.html) formatted test reports.
+ 
  b.)output/           # It contains video report.
+ 
 3.testData/             # Test data for test cases.
+
  a.)loginTestData.json          # Test data for login tests.
+ 
  b.)productsTestData.json       # Test data for product's related tests.
+ 
  c.)registrationTestData.json   # Test data for registration tests.
+ 
+ 
 4.tests/                # Spec files containing test cases.
+
  a.)login.spec.js              # Test cases for login functionalities.
+ 
  b.)productsTests.spec.js      # Test cases for product functionalities.
+ 
  c.)registrationTests.spec.js  # Test cases for registration functionalities.
+ 
+ 
 5.utils/                # Utility files for reusable functions and custom assertions.
+
  a.)Assertion.js      # Custom assertion methods.
+ 
  b.)CustomFixture.js  # Custom fixtures to merge all the fixtures.
+ 
  c.)test-utils.js     # Utility functions for common tasks.
+ 
 6. gitignore            # Files and folders to ignore in version control in github.
+
 7.package-lock.json     # Auto-generated file for npm dependency tree.
+
 8.package.json          # Project configuration and dependencies.
+
 9.playwright.config.js  # Playwright configuration file.
 
 
