@@ -5,7 +5,6 @@ This repository contains an automation framework built using Playwright & JS. Be
 
 Folder Structure:-
 -----------------
-
 1.node_modules/         # It contains dependencies installed via npm.
 2.pages/                # Page Object Models (POM) for application pages.
  a.)POManager & Fixture  # It contains fixtures for pages and setting up & cleaning up fixtures after test.
