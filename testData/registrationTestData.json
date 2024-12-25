@@ -1,0 +1,17 @@
+{
+  "ValidateUserRegistration":{
+    "password":"dharmabcxyz55",
+    "day":"5",
+    "month":"May",
+    "year":"2021",
+    "firstName":"Dharmendra",
+    "lastName":"Singh",
+    "address":"Old broad street",
+    "country":"India",
+    "state":"Maharashtra",
+    "city":"Pune",
+    "zipcode":"412105",
+    "mobileNumber":"12345655"
+  }
+}
+  
